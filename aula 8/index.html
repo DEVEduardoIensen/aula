@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Laboratório de Responsividade</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="topo">
+    <h1>Laboratório de Responsividade</h1>
+    <p>Teste de layout adaptável para diferentes tamanhos de tela</p>
+  </header>
+
+  <nav class="menu">
+    <a href="#">Início</a>
+    <a href="#">Sobre</a>
+    <a href="#">Serviços</a>
+    <a href="#">Contato</a>
+  </nav>
+
+  <main class="container">
+
+    <section class="hero">
+      <div class="hero-texto">
+        <h2>Seção Hero Responsiva</h2>
+        <p>
+          Esta área foi criada para demonstrar como um layout pode se adaptar
+          em desktops, tablets e celulares utilizando Flexbox e Media Queries.
+        </p>
+        <button>Saiba mais</button>
+      </div>
+
+      <div class="hero-imagem">
+        <img src="https://picsum.photos/800/500" alt="Imagem de exemplo">
+      </div>
+    </section>
+
+    <section class="cards-section">
+      <h2>Cards Responsivos</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Card 1</h3>
+          <p>Observe como os cards mudam de quantidade por linha conforme a largura da tela.</p>
+        </article>
+
+        <article class="card">
+          <h3>Card 2</h3>
+          <p>Este exemplo pode ser usado para testar grid, flex-wrap e breakpoints.</p>
+        </article>
+
+        <article class="card">
+          <h3>Card 3</h3>
+          <p>Os alunos podem alterar largura, gap, padding e media queries.</p>
+        </article>
+
+        <article class="card">
+          <h3>Card 4</h3>
+          <p>Também é possível testar tipografia fluida com rem, em e clamp().</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="grid-section">
+      <h2>Grid Responsivo</h2>
+      <div class="grid-galeria">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+      </div>
+    </section>
+
+    <section class="tabela-section">
+      <h2>Tabela com Overflow Horizontal</h2>
+      <div class="tabela-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th>Produto</th>
+              <th>Categoria</th>
+              <th>Preço</th>
+              <th>Estoque</th>
+              <th>Fornecedor</th>
+              <th>Código</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Notebook</td>
+              <td>Eletrônicos</td>
+              <td>R$ 3.500</td>
+              <td>12</td>
+              <td>Tech Supply</td>
+              <td>NB-001</td>
+            </tr>
+            <tr>
+              <td>Mouse Gamer</td>
+              <td>Periféricos</td>
+              <td>R$ 180</td>
+              <td>35</td>
+              <td>Gear Store</td>
+              <td>MG-014</td>
+            </tr>
+            <tr>
+              <td>Monitor</td>
+              <td>Vídeo</td>
+              <td>R$ 1.200</td>
+              <td>8</td>
+              <td>Vision Tech</td>
+              <td>MN-220</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="rodape">
+    <p>Exemplo para aula de responsividade - Desenvolvimento Front-End</p>
+  </footer>
+
+</body>
+</html>
