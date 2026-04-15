@@ -36,8 +36,15 @@ body{
 
 .resposta{
     transform: rotateY(180deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0px;
 }
 
 h3{
     backface-visibility: hidden;
+    display: flex;
+    justify-content: center;
 }
